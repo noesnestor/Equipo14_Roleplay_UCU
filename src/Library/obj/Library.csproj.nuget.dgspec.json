@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj": {}
+    "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj": {
+    "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj",
+        "projectUniqueName": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\Néstor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\obj\\",
+        "projectPath": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Néstor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

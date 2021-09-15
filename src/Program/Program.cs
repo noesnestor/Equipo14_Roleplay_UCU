@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Threading;
 
-namespace Personaje_Juego
+namespace Roleplay
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Elemento baston1 = new Elemento("Baston de Fuego");
         }
     }
 }
