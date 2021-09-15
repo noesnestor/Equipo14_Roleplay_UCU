@@ -7,14 +7,14 @@ namespace Roleplay
         public string Nombre { get; }
         public int Ataque { get; }
         public int Defensa { get; }
-        public string Tipo { get; }
+        public string Raza { get; }
 
-        public Elemento(string nombre, int ataque, int defensa, string tipo)
+        public Elemento(string nombre, int ataque, int defensa, string raza)
         {
             this.Nombre = nombre;
             this.Ataque = ataque;
             this.Defensa = defensa;
-            this.Tipo = tipo;
+            this.Raza = raza;
         }
     }
 }
