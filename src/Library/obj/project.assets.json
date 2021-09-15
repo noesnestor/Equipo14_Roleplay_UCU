@@ -13,21 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj",
+      "projectUniqueName": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\Library.csproj",
+      "projectPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Equipo14_PII_Game_Of_Life\\src\\Library\\obj\\",
+      "outputPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
