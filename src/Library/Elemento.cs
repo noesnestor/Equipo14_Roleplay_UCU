@@ -31,14 +31,12 @@ namespace Roleplay
             }
         }
         public int Defensa { get; }
-        public string Raza { get; }
 
-        public Elemento(string nombre, int ataque, int defensa, string raza)
+        public Elemento(string nombre, int ataque, int defensa)
         {
             this.Nombre = nombre;
             this.Ataque = ataque;
             this.Defensa = defensa;
-            this.Raza = raza;
         }
 
 
