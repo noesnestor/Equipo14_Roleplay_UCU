@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Néstor\\.nuget\\packages\\": {}
+    "C:\\Users\\rodri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj",
+      "projectUniqueName": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\Néstor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Personaje_Juego\\Library\\obj\\",
+      "projectPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Néstor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
