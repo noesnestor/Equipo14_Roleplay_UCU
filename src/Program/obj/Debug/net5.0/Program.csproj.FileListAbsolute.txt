@@ -36,3 +36,22 @@ D:\GitHub\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.dll
 D:\GitHub\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\ref\Program.dll
 D:\GitHub\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.pdb
 D:\GitHub\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.genruntimeconfig.cache
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.dll
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\ref\Program.dll
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.pdb
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.csproj.AssemblyReference.cache
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.AssemblyInfoInputs.cache
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.AssemblyInfo.cs
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.csproj.CoreCompileInputs.cache
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.exe
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.deps.json
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.runtimeconfig.json
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.runtimeconfig.dev.json
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.dll
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\ref\Program.dll
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Program.pdb
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Library.dll
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\bin\Debug\net5.0\Library.pdb
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.csproj.CopyComplete
+C:\Users\Néstor\Desktop\UCU\Primer año\2do Semestre\Programación II\Repositorios\Roleplay\Equipo14_Roleplay_UCU\src\Program\obj\Debug\net5.0\Program.genruntimeconfig.cache
