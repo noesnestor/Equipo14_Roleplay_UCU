@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj": {}
+    "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Roleplay\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj": {
+    "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Roleplay\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Roleplay\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Equipo14_Roleplay_UCU\\src\\Library\\obj\\",
+        "projectPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Roleplay\\Equipo14_Roleplay_UCU\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\Néstor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Néstor\\Desktop\\UCU\\Primer año\\2do Semestre\\Programación II\\Repositorios\\Roleplay\\Equipo14_Roleplay_UCU\\src\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Néstor\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
