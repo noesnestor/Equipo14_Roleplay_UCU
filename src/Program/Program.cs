@@ -12,6 +12,7 @@ namespace Roleplay
             Elemento libro = new Elemento("Libro de Hechizos", 0, 0);
             Personaje Heroe = new Personaje("Messi","Enano",20);
             Personaje Villano = new Personaje("CR7","Mago",21);
+            Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
 
             Console.WriteLine(libro.Ataque);
 
