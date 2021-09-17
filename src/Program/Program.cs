@@ -19,15 +19,10 @@ namespace Roleplay
             Personaje elfo = new Personaje("Link", "Elfo", 50);     
             Personaje Juan = new Personaje("Juan","Enano",80);
 
-            Console.WriteLine(libro.Ataque);
-
             libro.AgregarHechizo("Dormir");
             libro.AgregarHechizo("Pira");
             libro.AgregarHechizo("Piraga");
 
-            Console.WriteLine(libro.Ataque);
-            Juan.AgregarElemento(pechera);
-            Juan.AgregarElemento(hacha);
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
             Villano.Atacar(Heroe);
