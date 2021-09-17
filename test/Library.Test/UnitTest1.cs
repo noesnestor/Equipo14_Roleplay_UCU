@@ -67,5 +67,22 @@ namespace Roleplay
 
             Assert.AreEqual(expected, pj2.Salud);
         }
+
+
+        /*
+        Es importante testear el metodo curar ya que de no funcionar, los personajes no podrian regenerar vida.
+        */
+        [Test]
+        public void TestCurar()
+        {
+            Personaje Test3 = new Personaje("Tester","Elfo",50);
+            Personaje Test4 = new Personaje("Tester2", "Elfo", 50);
+            Elemento Test5 = new Elemento("Ataque_Test",20, 0);
+            Test4.AgregarElemento(Test5);
+            Test4.Atacar(Test3);
+            Test3.Curar(5);
+            int expected = 35;
+            Assert.AreEqual(expected, Test3.Salud);
+        }
     }
 }
