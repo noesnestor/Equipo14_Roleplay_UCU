@@ -15,9 +15,6 @@ namespace Roleplay
             this.VidaMax = salud;
         }
 
-        private string nombre;
-        private string raza;
-        private int salud;
         private int ataque;
         private int defensa;
 
