@@ -26,8 +26,8 @@ namespace Roleplay
             libro.AgregarHechizo("Piraga");
 
             Console.WriteLine(libro.Ataque);
-            Juan.AgregarElemento(hacha);
             Juan.AgregarElemento(pechera);
+            Juan.AgregarElemento(hacha);
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
             Villano.Atacar(Heroe);
