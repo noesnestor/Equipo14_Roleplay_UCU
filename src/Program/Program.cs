@@ -13,11 +13,14 @@ namespace Roleplay
             Elemento libro = new Elemento("Libro de Hechizos", 0, 0);
             Elemento hacha = new Elemento("Hacha de vikingo",80,0);
             Elemento pechera = new Elemento("Pechera de plata",0,50);
+            Elemento chancletazo = new Elemento("Chancletazo", 89, 0);
+            Elemento Casco_Vikingo = new Elemento("Casco Vikingo", 0, 40);
             Personaje Heroe = new Personaje("Messi","Enano",20);
             Personaje Villano = new Personaje("CR7","Mago",21);
             Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
             Personaje elfo = new Personaje("Link", "Elfo", 50);     
             Personaje Juan = new Personaje("Juan","Enano",80);
+            Personaje Goblin = new Personaje("Goblin","Elfo",55);
 
             libro.AgregarHechizo("Dormir");
             libro.AgregarHechizo("Pira");
@@ -26,6 +29,8 @@ namespace Roleplay
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
             Villano.Atacar(Heroe);
+            Goblin.AgregarElemento(chancletazo);
+            Goblin.Atacar(Juan);
             Heroe.Curar(1);
         }
     }
