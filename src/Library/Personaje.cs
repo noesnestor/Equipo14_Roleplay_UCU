@@ -1,7 +1,5 @@
 using System;
 using System.Collections;
-using System.Text;
-using System.Runtime;
 
 namespace Roleplay
 {
@@ -20,11 +18,38 @@ namespace Roleplay
         private string nombre;
         private string raza;
         private int salud;
+        private int ataque;
+        private int defensa;
+
 
         public string Nombre {get; set;}
         public int Salud {get; private set;}
         public string Raza {get;}
         public int VidaMax {get;}
+
+        public int Ataque 
+        {
+            get
+            {
+                foreach (Elemento elemento in inventario)
+                {
+                  this.ataque += elemento.Ataque; 
+                }
+                return this.ataque;
+            } 
+        }
+        public int Defensa 
+        {
+            get
+            {
+                foreach (Elemento elemento in inventario)
+                {
+                  this.defensa += elemento.Defensa;
+                }
+                return this.defensa;
+            }
+        }
+
         
         public void AgregarElemento(Elemento elemento)
         {
@@ -51,45 +76,27 @@ namespace Roleplay
             }
         }
 
-        public void Atacar(Personaje personaje, Elemento elemento)
+        public void Atacar(Personaje personaje)
         {
-            int contador = 0;
-            foreach (Elemento elementoAlmacenado in this.inventario)
+            int dmg = this.Ataque - personaje.Defensa;
+            if (dmg<0)
             {
-                if (elementoAlmacenado.Nombre == elemento.Nombre)
-                {
-                    int dmg = elementoAlmacenado.Ataque - elemento.Ataque;
-                    if (dmg<0)
-                    {
-                        Console.WriteLine($"¡El ataque de {this.Nombre} con {elemento.Nombre} fue inútil debido a la defensa de {personaje.Nombre}!");
-                    } 
-                    else
-                    {
-                        if (dmg < personaje.Salud)
-                        {
-                            personaje.Salud = personaje.Salud - dmg;
-                            Console.WriteLine($"¡El ataque de {this.Nombre} con {elemento.Nombre} logró dañar a{personaje.Nombre}! Le quedan {personaje.Salud} puntos de vida restantes!");
-                        }
-                        if (dmg >= personaje.Salud)
-                        {
-                            personaje.Salud = 0;
-                            Console.WriteLine($"¡El ataque de {this.Nombre} con {elemento.Nombre} fue letal! Has vencido a {personaje.Nombre}!");
-                        }
-                    }
-
-                }
-                else
-                {
-                    contador +=1;
-                }
-                
-            }
-            if (contador == inventario.Count)
+                Console.WriteLine($"¡El ataque de {this.Nombre} fue inútil debido a la defensa de {personaje.Nombre}!");
+            } 
+            else
             {
-                Console.WriteLine("El personaje no posee el item que especificas.");
+                if (dmg < personaje.Salud)
+                {
+                    personaje.Salud = personaje.Salud - dmg;
+                    Console.WriteLine($"¡El ataque de {this.Nombre} logró dañar a {personaje.Nombre}! Le quedan {personaje.Salud} puntos de vida restantes!");
+                }
+                if (dmg >= personaje.Salud)
+                {
+                    personaje.Salud = 0;
+                    Console.WriteLine($"¡El ataque de {this.Nombre} fue letal! Has vencido a {personaje.Nombre}!");
+                }
             }
-        }   
-
+        }
 
         public void Curar(int vidaACurar)
         {
