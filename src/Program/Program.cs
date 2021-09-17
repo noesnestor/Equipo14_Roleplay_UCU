@@ -13,11 +13,15 @@ namespace Roleplay
             Elemento libro = new Elemento("Libro de Hechizos", 0, 0);
             Elemento hacha = new Elemento("Hacha de vikingo",80,0);
             Elemento pechera = new Elemento("Pechera de plata",0,50);
+            Elemento cortina = new Elemento("Cortina de humo", 40, 40);
+            Elemento ceniza = new Elemento("Ceniza", 80, 0);
+
             Personaje Heroe = new Personaje("Messi","Enano",20);
             Personaje Villano = new Personaje("CR7","Mago",21);
             Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
             Personaje elfo = new Personaje("Link", "Elfo", 50);     
             Personaje Juan = new Personaje("Juan","Enano",80);
+            Personaje Sr_Tabaco = new Personaje("Sr Tabaco","Mago",75);
 
             libro.AgregarHechizo("Dormir");
             libro.AgregarHechizo("Pira");
