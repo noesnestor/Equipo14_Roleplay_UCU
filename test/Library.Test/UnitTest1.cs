@@ -49,5 +49,23 @@ namespace Roleplay
             int expected = 50;
             Assert.AreEqual(expected,Test2.Defensa);
         }
+        [Test]
+        public void TestAtaqueAPersonaje()
+        {
+            Personaje pj1 = new Personaje("Test 1", "Elfo", 10);
+            Personaje pj2 = new Personaje("Test 2", "Enano", 20);
+
+            Elemento espada = new Elemento("Espada", 20, 0);
+            Elemento escudo = new Elemento("Escudo", 0, 10);
+
+            pj1.AgregarElemento(espada);
+            pj2.AgregarElemento(escudo);
+
+            pj1.Atacar(pj2);
+
+            int expected = 10;
+
+            Assert.AreEqual(expected, pj2.Salud);
+        }
     }
 }
