@@ -14,13 +14,10 @@ namespace Roleplay
             Personaje Villano = new Personaje("CR7","Mago",21);
             Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
 
-            Console.WriteLine(libro.Ataque);
-
             libro.AgregarHechizo("Dormir");
             libro.AgregarHechizo("Pira");
             libro.AgregarHechizo("Piraga");
 
-            Console.WriteLine(libro.Ataque);
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
             Villano.Atacar(Heroe);
