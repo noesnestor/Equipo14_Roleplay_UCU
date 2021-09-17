@@ -16,13 +16,10 @@ namespace Roleplay
             Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
             Personaje elfo = new Personaje("Link", "Elfo", 50);
 
-            Console.WriteLine(libro.Ataque);
-
             libro.AgregarHechizo("Dormir");
             libro.AgregarHechizo("Pira");
             libro.AgregarHechizo("Piraga");
 
-            Console.WriteLine(libro.Ataque);
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
             Villano.Atacar(Heroe);
