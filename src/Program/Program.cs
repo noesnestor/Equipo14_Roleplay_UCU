@@ -16,12 +16,13 @@ namespace Roleplay
             Console.WriteLine(libro.Ataque);
 
             libro.AgregarHechizo("Dormir");
-            libro.AgregarHechizo("Lanzallamas");
+            libro.AgregarHechizo("Pira");
+            libro.AgregarHechizo("Piraga");
 
             Console.WriteLine(libro.Ataque);
             Villano.AgregarElemento(libro);
             Heroe.AgregarElemento(libro);
-            Villano.Atacar(Heroe,libro);
+            Villano.Atacar(Heroe);
             Heroe.Curar(1);
         }
     }
