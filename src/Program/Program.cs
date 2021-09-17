@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 
 namespace Roleplay
 {
@@ -9,10 +8,13 @@ namespace Roleplay
         {
             Elemento baston1 = new Elemento("Baston de Fuego", 70, 0);
             Elemento tunica1 = new Elemento("Tunica de Mago", 0, 30);
+            Elemento espada1 = new Elemento("Espada de la Trifuerza", 100,0);
+            Elemento escudo1 = new Elemento("Escudo", 0, 100);
             Elemento libro = new Elemento("Libro de Hechizos", 0, 0);
             Personaje Heroe = new Personaje("Messi","Enano",20);
             Personaje Villano = new Personaje("CR7","Mago",21);
             Personaje mago1 = new Personaje("Gandalf", "Mago", 100);
+            Personaje elfo = new Personaje("Link", "Elfo", 50);
 
             Console.WriteLine(libro.Ataque);
 
