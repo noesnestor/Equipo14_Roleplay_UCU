@@ -36,5 +36,18 @@ namespace Roleplay
             int expected = 2;
             Assert.AreEqual(expected, libro.Ataque);
         }
+        /*
+        Es importante testear el valor defenda porque es necesario para que los ataques de los 
+        enemigos tengan alguan resistencia antes de afectar la vida del contrincante
+        */
+        [Test]
+        public void TestDefensa()
+        {
+            Personaje Test2 = new Personaje("Tester","Elfo",20);
+            Elemento Escudo = new Elemento("Escudo",0,50);
+            Test2.AgregarElemento(Escudo);
+            int expected = 50;
+            Assert.AreEqual(expected,Test2.Defensa);
+        }
     }
 }
